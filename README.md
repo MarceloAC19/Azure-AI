@@ -21,5 +21,5 @@ O objetivo deste laboratório é praticar e aprofundar o uso das ferramentas Azu
 
 Este projeto foi enriquecido com base nos seguintes laboratórios do Microsoft Learn:
 
-* **Análise de Texto:** [Analyze text with Azure AI Language](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/10-text-analysis.html)
+* **Análise de Texto:** [Analyze text with Azure AI Language](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html)
 * **Análise de Fala:** [Explore speech with Azure AI Speech](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/09-speech.html)
