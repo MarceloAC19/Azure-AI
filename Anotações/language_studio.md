@@ -1,6 +1,6 @@
 # Anotações do Laboratório: Azure AI Language Studio
 
-Este documento detalha os passos e resultados dos experimentos realizados no [laboratório de Análise de Texto do MS Learn](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/10-text-analysis.html).
+Este documento detalha os passos e resultados dos experimentos realizados no [laboratório de Análise de Texto do MS Learn](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html).
 
 ## 1. Detecção de Idioma
 
