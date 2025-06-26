@@ -1,25 +1,25 @@
 # Azure-AI
-# 🚀 Laboratório de Análise de Fala e Linguagem com Azure AI
+# 🚀 Speech and Language Analysis Lab with Azure AI
 
-Este repositório documenta os estudos e práticas do laboratório focado nas ferramentas **Azure Speech Studio** e **Azure Language Studio**, conforme o desafio proposto.
+This repository documents the studies and practices from the lab focused on the **Azure Speech Studio** and **Azure Language Studio** tools, as per the proposed challenge.
 
-## 📄 Descrição do Desafio
+## 📄 Challenge Description
 
-O objetivo deste laboratório é praticar e aprofundar o uso das ferramentas Azure Speech Studio e Language Studio, focando na **análise de fala e linguagem natural**. O projeto visa desenvolver habilidades práticas na criação de soluções baseadas em inteligência artificial voltadas para voz e linguagem, resultando em um repositório organizado com anotações e insights para futuras consultas.
+The objective of this lab is to practice and deepen the use of the Azure Speech Studio and Language Studio tools, focusing on **speech and natural language analysis**. The project aims to develop practical skills in creating AI-based solutions for voice and language, resulting in an organized repository with notes and insights for future reference.
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## 🛠️ Tools Used
 
 * **Microsoft Azure**
-* **Azure AI Speech Studio**: Para conversão de texto em fala (Text-to-Speech), reconhecimento de fala em tempo real e em lote (Speech-to-Text) e tradução de fala.
-* **Azure AI Language Studio**: Para análise de sentimentos, extração de frases-chave, detecção de idioma e reconhecimento de entidades (pessoas, locais, etc.).
+* **Azure AI Speech Studio**: For Text-to-Speech, real-time and batch Speech-to-Text, and speech translation.
+* **Azure AI Language Studio**: For sentiment analysis, key phrase extraction, language detection, and entity recognition (people, locations, etc.).
 
 ---
 
-## 📚 Recursos de Aprendizagem
+## 📚 Learning Resources
 
-Este projeto foi enriquecido com base nos seguintes laboratórios do Microsoft Learn:
+This project was enriched based on the following Microsoft Learn labs:
 
-* **Análise de Texto:** [Analyze text with Azure AI Language](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html)
-* **Análise de Fala:** [Explore speech with Azure AI Speech](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/09-speech.html)
+* **Text Analysis:** [Analyze text with Azure AI Language](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html)
+* **Speech Analysis:** [Explore speech with Azure AI Speech](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/09-speech.html)
