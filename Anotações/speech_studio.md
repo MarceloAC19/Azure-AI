@@ -1,47 +1,47 @@
-# Anotações do Laboratório: Azure AI Speech Studio
+# Lab Notes: Azure AI Speech Studio
 
-Este documento detalha os passos e resultados dos experimentos realizados no [laboratório de Análise de Fala do MS Learn](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/09-speech.html).
+This document details the steps and results of the experiments conducted in the [MS Learn Speech Analysis lab](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/09-speech.html).
 
-## 1. Conversão de Fala em Texto (Speech-to-Text)
+## 1. Speech-to-Text
 
-* **Objetivo:** Transcrever um áudio para texto. O laboratório explora a transcrição em tempo real (usando o microfone) e a partir de um arquivo de áudio.
-* **Método Utilizado:** (X) Em tempo real ( ) Arquivo de áudio
-* **Resultado da Transcrição:**
+* **Objective:** To transcribe audio to text. The lab explores real-time transcription (using the microphone) and transcription from an audio file.
+* **Method Used:** (X) Real-time ( ) Audio file
+* **Transcription Result:**
     ```
     Ok, I'm starting the test now... The quick brown fox jumps over the lazy dog. How well is this being transcribed?
     ```
-* **Observações:**
-    * A precisão foi muito alta. O modelo adicionou pontuação automaticamente (ponto final e interrogação), o que é impressionante. A fala "Okay, I'm" foi transcrita como "Ok, I'm", uma pequena, mas aceitável, variação.
+* **Observations:**
+    * The accuracy was very high. The model automatically added punctuation (period and question mark), which is impressive. The speech "Okay, I'm" was transcribed as "Ok, I'm," a minor but acceptable variation.
 
-## 2. Conversão de Texto em Fala (Text-to-Speech)
+## 2. Text-to-Speech
 
-* **Objetivo:** Sintetizar uma voz natural a partir de um texto.
-* **Texto de Exemplo:**
+* **Objective:** To synthesize a natural voice from text.
+* **Sample Text:**
     ```xml
     <speak version="1.0" xmlns="[http://www.w3.org/2001/10/synthesis](http://www.w3.org/2001/10/synthesis)" xml:lang="pt-BR">
         <voice name="pt-BR-FranciscaNeural">
-            Bem-vindo ao futuro da inteligência artificial.
+            Welcome to the future of artificial intelligence.
             <break time="500ms"/>
-            Aqui, suas ideias ganham vida com uma voz natural.
+            Here, your ideas come to life with a natural voice.
         </voice>
     </speak>
     ```
-* **Configurações de Voz:**
-    * Idioma: `Português (Brasil)`
-    * Voz: `pt-BR-FranciscaNeural`
-    * Estilo de Fala: `Default`
-* **Observações:**
-    * A voz 'FranciscaNeural' é extremamente natural e fluida. O uso da tag SSML `<break time='500ms'/>` funcionou perfeitamente para adicionar uma pausa dramática entre as frases, mostrando o poder de customização.
+* **Voice Settings:**
+    * Language: `Portuguese (Brazil)`
+    * Voice: `pt-BR-FranciscaNeural`
+    * Speech Style: `Default`
+* **Observations:**
+    * The 'FranciscaNeural' voice is extremely natural and fluid. Using the SSML tag `<break time='500ms'/>` worked perfectly to add a dramatic pause between sentences, showcasing the power of customization.
 
-## 3. Tradução de Fala (Speech Translation)
+## 3. Speech Translation
 
-* **Objetivo:** Traduzir a fala de um idioma de origem para um idioma de destino.
-* **Idioma de Origem:** `Inglês (EUA)`
-* **Idioma de Destino:** `Espanhol`
-* **Frase Falada (imaginária):** `This is a real-time translation test to see the service's performance.`
-* **Resultado da Tradução:**
+* **Objective:** To translate speech from a source language to a target language.
+* **Source Language:** `English (US)`
+* **Target Language:** `Spanish`
+* **Spoken Phrase (imagined):** `This is a real-time translation test to see the service's performance.`
+* **Translation Result:**
     ```
     Esta es una prueba de traducción en tiempo real para ver el rendimiento del servicio.
     ```
-* **Observações:**
-    * A tradução foi instantânea e precisa, mantendo o significado exato da frase original. A latência foi mínima, tornando o serviço viável para aplicações de conversação ao vivo. A qualidade da voz sintetizada em espanhol também foi excelente.
+* **Observations:**
+    * The translation was instantaneous and accurate, maintaining the exact meaning of the original sentence. The latency was minimal, making the service viable for live conversation applications. The quality of the synthesized Spanish voice was also excellent.
